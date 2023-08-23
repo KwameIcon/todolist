@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+}
+#wrapper{
+    width: 50%;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+#header-container{
+    background-color: teal;
+    padding: 40px;
+    text-align: center;
+}
+#header-container h2{
+    color: wheat;
+    margin: 5px;
+}
+#to-do-form #inputField{
+    width: 40%;
+    height: 4vh;
+    outline: none;
+    border: none;
+}
+#to-do-form #to-do-btn{
+    background-color: rgb(83, 5, 5);
+    padding: 5px 15px;
+    color: wheat;
+    cursor: pointer;
+    border: none;
+}
+#to-do-form #to-do-btn:hover{
+    background-color: rgb(59, 4, 4);
+}
+#list-container{
+    border-left: 20px solid teal;
+    padding: 15px;
+}
+ul{
+    margin: 10px;
+    background-color: rgb(233, 233, 219);
+    border-radius: 10px;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(226, 226, 212);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+ul li:hover{
+    background-color: rgb(239, 240, 240);
+}
+.close{
+    padding: 5px 20px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    cursor: progress;
+}
+.check{
+    background-color: rgb(228, 227, 226);
+    text-decoration: line-through;
+}
+.check:hover{
+    background-color: rgb(226, 226, 212);
+}
